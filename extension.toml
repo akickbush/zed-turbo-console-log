@@ -1,0 +1,7 @@
+id = "turbo-console-log-zed"
+name = "Turbo Console Log Zed"
+version = "0.0.1"
+schema_version = 1
+authors = ["Adam Kickbush"]
+description = "Automating the process of writing meaningful console.log messages"
+repository = "https://github.com/akickbush/zed-turbo-console-log"
