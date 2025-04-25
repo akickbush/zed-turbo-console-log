@@ -1,0 +1,26 @@
+{
+  "name": "turbo-console-log",
+  "version": "0.1.0",
+  "description": "Automating the process of writing meaningful console.log messages",
+  "repository": "https://github.com/akickbush/zed-turbo-console-log",
+  "authors": ["Adam Kickbush"],
+  "scripts": {
+    "turbo_log": "turbo_log.js"
+  },
+  "keybindings": {
+    "turbo_log": [
+      {
+        "key": "ctrl+alt+l",
+        "mac": "cmd+opt+l",
+        "when": "editor.focus"
+      }
+    ],
+    "turbo_log_delete": [
+      {
+        "key": "ctrl+alt+d",
+        "mac": "cmd+opt+d",
+        "when": "editor.focus"
+      }
+    ]
+  }
+}
